@@ -22,8 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
         //New master to dev
 
+
+        //Lấy thời gian
         Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat( "mm:hh dd/MM/yyyy");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat( "hh:mm dd/MM/yyyy");
         Log.e("ZZZZ", "onCreate: "+simpleDateFormat.format(calendar.getTime()) );
     }
 }
