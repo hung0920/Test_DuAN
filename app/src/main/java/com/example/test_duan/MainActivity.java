@@ -18,23 +18,5 @@ public class MainActivity extends AppCompatActivity {
         //Add to master
 
         //New dev to master
-
-        //Dev to master
-
-        //Text from Hung
-
-        //Text from Cuong
-
-        // nguyen van hung
-
-        //NVH
-
-        // NGUYR
-
-        // NGUYJV
-
-        // NDKJBVSD
-
-        // hi hi
     }
 }
