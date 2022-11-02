@@ -22,5 +22,7 @@ public class MainActivity extends AppCompatActivity {
         //Dev to master
 
         //Text from Hung
+
+        //Text from Cuong
     }
 }
