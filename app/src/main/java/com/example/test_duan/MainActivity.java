@@ -24,5 +24,7 @@ public class MainActivity extends AppCompatActivity {
         //Text from Hung
 
         //Text from Cuong
+
+        // nguyen van hung
     }
 }
