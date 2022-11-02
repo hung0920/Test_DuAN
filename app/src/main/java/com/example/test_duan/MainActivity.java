@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.e("ZZZZZ", "Change from new dev" );
+        Log.e("ZZZZZ", "Change from new dev");
         //Add to master
 
         //New dev to master
@@ -34,5 +34,7 @@ public class MainActivity extends AppCompatActivity {
         // NGUYJV
 
         // NDKJBVSD
+
+        // hi hi
     }
 }
