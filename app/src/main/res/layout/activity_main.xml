@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"/>
             <Button
                 android:text="4"
-                android:textSize="36sp"
+                android:textSize="55sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <Button
