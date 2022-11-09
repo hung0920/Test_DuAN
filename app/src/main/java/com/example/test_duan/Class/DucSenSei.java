@@ -22,6 +22,15 @@ public class DucSenSei {
 
     public void setName(String name) {
         this.name = name;
+
+    // DucSenSei com men cho LeeHung
+
+    public DucSenSei(int id, String lop) {
+        this.id = id;
+        Lop = lop;
+    }
+
+    public DucSenSei() {
     }
 
     public int getId() {
@@ -39,5 +48,6 @@ public class DucSenSei {
     public void setLop(String lop) {
         Lop = lop;
     }
+
 }
 
