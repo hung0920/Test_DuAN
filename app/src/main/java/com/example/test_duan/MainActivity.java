@@ -27,6 +27,6 @@ public class MainActivity extends AppCompatActivity {
         Log.e("ZZZZ", "onCreate: "+simpleDateFormat.format(calendar.getTime()) );
         
         
-        //Test from Hung
+        //Test from Hung 2
     }
 }
