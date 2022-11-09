@@ -15,17 +15,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.e("ZZZZZ", "Change from new dev" );
+        Log.e("ZZZZZ", "Change from new dev");
         //Add to master
 
         //New dev to master
-
-        //New master to dev
-
-
-        //Lấy thời gian
-        Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat( "hh:mm dd/MM/yyyy");
-        Log.e("ZZZZ", "onCreate: "+simpleDateFormat.format(calendar.getTime()) );
     }
 }
