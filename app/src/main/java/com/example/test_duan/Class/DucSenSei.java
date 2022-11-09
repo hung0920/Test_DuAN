@@ -22,13 +22,8 @@ public class DucSenSei {
 
     public void setName(String name) {
         this.name = name;
-
-    // DucSenSei com men cho LeeHung
-
-    public DucSenSei(int id, String lop) {
-        this.id = id;
-        Lop = lop;
     }
+    // DucSenSei com men cho LeeHung
 
     public DucSenSei() {
     }
