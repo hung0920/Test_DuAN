@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
         @SuppressLint("SimpleDateFormat") SimpleDateFormat simpleDateFormat = new SimpleDateFormat( "hh:mm dd/MM/yyyy");
         Log.e("ZZZZ", "onCreate: "+simpleDateFormat.format(calendar.getTime()) );
         
-        
+        //Teee
         //Test from Hung 2
+        //Tédsdsd
     }
 }
