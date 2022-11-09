@@ -10,6 +10,9 @@ public class DucSenSei {
         Lop = lop;
     }
 
+    public DucSenSei() {
+    }
+
     public int getId() {
         return id;
     }
