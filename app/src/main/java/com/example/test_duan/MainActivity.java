@@ -1,5 +1,6 @@
 package com.example.test_duan;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -21,11 +22,8 @@ public class MainActivity extends AppCompatActivity {
         //New dev to master
 
         //New master to dev
-
-
-        //Lấy thời gian
         Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat( "hh:mm dd/MM/yyyy");
+        @SuppressLint("SimpleDateFormat") SimpleDateFormat simpleDateFormat = new SimpleDateFormat( "hh:mm dd/MM/yyyy");
         Log.e("ZZZZ", "onCreate: "+simpleDateFormat.format(calendar.getTime()) );
     }
 }
