@@ -4,7 +4,7 @@ public class DucSenSei {
 
     private int id;
     private String Lop;
-    // DucSenSei com men
+    // DucSenSei com men cho LeeHung
 
     public DucSenSei(int id, String lop) {
         this.id = id;
