@@ -1,11 +1,13 @@
 package com.example.test_duan;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.net.wifi.WifiManager;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.WindowManager;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,13 +16,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.e("ZZZZZ", "Change from new dev");
+        Log.e("ZZZZZ", "Change from new dev" );
         //Add to master
 
         //New dev to master
 
-        //Dev to master
+        //New master to dev
+        Calendar calendar = Calendar.getInstance();
+        @SuppressLint("SimpleDateFormat") SimpleDateFormat simpleDateFormat = new SimpleDateFormat( "hh:mm dd/MM/yyyy");
+        Log.e("ZZZZ", "onCreate: "+simpleDateFormat.format(calendar.getTime()) );
 
+<<<<<<< HEAD
         //Text from Hung
 
         //Text from Cuong
@@ -38,5 +44,8 @@ public class MainActivity extends AppCompatActivity {
         // hi hi
 
 
+=======
+        //Hello from dev
+>>>>>>> 668ef71f817c8b528d2c8272ff20c176ffce1183
     }
 }
