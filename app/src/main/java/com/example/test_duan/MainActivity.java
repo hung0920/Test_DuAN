@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
-
+    // DucSenSei No pro
     //New dev
     @Override
     protected void onCreate(Bundle savedInstanceState) {
