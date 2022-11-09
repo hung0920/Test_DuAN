@@ -5,9 +5,6 @@ import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-
 public class MainActivity extends AppCompatActivity {
 
     //New dev
@@ -15,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.e("ZZZZZ", "Change from new dev");
+        Log.e("ZZZZZ", "Change from new dev" );
         //Add to master
 
         //New dev to master
