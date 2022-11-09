@@ -4,6 +4,7 @@ public class DucSenSei {
 
     private int id;
     private String Lop;
+    // DucSenSei com men
 
     public DucSenSei(int id, String lop) {
         this.id = id;
@@ -25,5 +26,6 @@ public class DucSenSei {
     public void setLop(String lop) {
         Lop = lop;
     }
+
 }
 
