@@ -3,6 +3,7 @@ package com.example.test_duan;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,15 +12,15 @@ import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
 
+    ListView listView,listOrder;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.e("ZZZZZ", "Change from new dev" );
 
-        Calendar calendar = Calendar.getInstance();
-        @SuppressLint("SimpleDateFormat") SimpleDateFormat simpleDateFormat = new SimpleDateFormat( "hh:mm dd/MM/yyyy");
-        Log.e("ZZZZ", "onCreate: "+simpleDateFormat.format(calendar.getTime()) );
+        listView = findViewById(R.id.List_View);
+        listOrder = findViewById(R.id.List_Order);
 
     }
 }
