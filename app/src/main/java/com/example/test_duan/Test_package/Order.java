@@ -9,6 +9,7 @@ import org.jetbrains.annotations.NotNull;
 public class Order {
 
     @PrimaryKey
+    @NotNull
     String name;
 
     int Total_Price;
