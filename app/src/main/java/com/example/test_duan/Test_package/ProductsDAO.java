@@ -19,4 +19,7 @@ public interface ProductsDAO {
     @Query("select * from Products")
     List<Products> getList();
 
+    @Query("select * from Products where name = :fname")
+    Products findName(String fname);
+
 }
